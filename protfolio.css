@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #000d28, #02284c);
+}
+.spacer {
+    flex: 1 1 auto;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* margin-top: 25px; */
+    padding:2%;
+
+}
+.logo{
+    color: #fff;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.txt_btn a {
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(16, 237, 127);
+    font-size:14px;
+    border: 1px solid rgb(46, 234, 71);
+    margin: 0 10px
+}
+
+.txt_btn a:hover {
+    background-color: rgb(2, 243, 54);
+    color: rgb(255, 255, 255);
+}
+.head-txt{
+    text-align: center;
+    padding-top: 8%;
+    /* font-size: 150px;
+    color: cornflowerblue; */
+}
+.head-txt h1{
+    font-size: 200px;
+    color: cornflowerblue;
+}
+.head-txt ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 25px;
+}
+.head-txt a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+}
+
+#protfolio-container{
+    width: 100%;
+    height: 100vh; 
+    background: linear-gradient(-45deg, #000d28, #02284c);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(-45deg, #000d28, #02284c);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    text-align: center;
+    color: #65acff;
+}
+
+.socio-link img {
+    width: 20px;
+    padding-bottom: 2%;
+    padding-right: 12px;
+}
+
+.copywrite img {
+    width: 14px;
+}
+
+.copywrite {
+    font-size: 10px;
+}
+
+.contact-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-detail {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-detail>img {
+    width: 25px;
+    margin-right: 8px;
+}
