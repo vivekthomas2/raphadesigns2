@@ -39,6 +39,7 @@
     /* justify-content: space-evenly; */
     margin-top: 25px;
     padding: 0 5%;
+    flex-wrap: wrap;
 }
 .logo{
     color: #fff;
@@ -153,7 +154,7 @@
 
 }
 
-@media screen and (max-width:) {
+/* @media screen and (max-width:) {
     .head_text {
         padding-left: 60px;
         padding-top: 450px;
@@ -175,7 +176,7 @@
         display: none;
     }
 
-}
+} */
 
 /* .scroll img {
     width: 30px;
@@ -187,7 +188,7 @@
 
 #service {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background: linear-gradient(-45deg, #000d28, #02284c);
     background-position: center;
     background-size: cover;
@@ -336,7 +337,7 @@
 }
 
 
-/*--- feedback box--*/
+/*--- feedback box ---*/
 
 #feedback-box {
     width: 100%;
@@ -423,12 +424,12 @@ textarea:valid~label {
 
 footer {
     width: 100%;
-    height: 40vh;
+    /* height: 40vh; */
     background: linear-gradient(-45deg, #000d28, #02284c);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 48px;
+    padding: 3% 0;
     text-align: center;
     color: #65acff;
 }
@@ -451,6 +452,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-detail {
@@ -464,4 +466,20 @@ footer {
 .contact-detail>img {
     width: 25px;
     margin-right: 8px;
+}
+
+@media only screen and (max-width: 659px) {
+  .menu, .socio {
+    display: none;
+  }
+
+  footer {
+    padding: 8% 0;
+  }
+}
+
+@media (min-width: 660px) and (max-width: 1259px) {
+    .socio {
+        display: none;
+    }
 }
