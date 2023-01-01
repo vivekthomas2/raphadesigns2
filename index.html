@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rapha Designs</title>
   <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
     </video>
     <div class="nav-bar">
       <div class="logo">
-         <h1>Rapha Designs</h1>
+         <img src="images/Rapha Logo.png">
       </div>
       <span class="spacer"></span>
       <div class="menu">
@@ -24,12 +25,15 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="protfolio.html">Protfolio</a></li>
             <li><a href="about.html">About</a></li>
-            <!-- <li><a href="#">Hire Us</a></li> -->
+            <!-- <li><img src="images/menu.png"></li> -->
           </ul>
       </div>
       <div class="txt_btn">
-        <a href="#">Hire Us</a>
+        <a href="mailto: ">Hire Us</a>
       </div>
+      <!-- <div class="menu-btn">
+        <img src="images/menu.png">
+      </div> -->
     </div>
     <div class="head_text">
       <h1>Designing <br>The Modern Business </h1>
@@ -106,34 +110,33 @@
   <section id="feedback-box">
     <h1>We Like To Hear From You</h1>
     <div class="form-conatiner">
-      <form action="">
-
+      <form>
         <div class="input-group">
           <input type="text" id="name" required>
           <label for="name">Name</label>
         </div>
-        <div class="row">
-          <div class="input-group">
+        <!-- <div class="row"> -->
+          <!-- <div class="input-group">
             <input type="text" id="number" required>
             <label for="number">Mobile</label>
-          </div>
+          </div> -->
           <div class="input-group">
             <input type="text" id="email" required>
             <label for="email">Email</label>
           </div>
-        </div>
+        <!-- </div> -->
         <div class="input-group">
           <textarea id="message" rows="8" required></textarea>
           <label for="message">Message</label>
         </div>
-        <button type="submit">Submit</button>
+        <button onclick="sendMail(event)">Submit</button>
 
       </form>
     </div>
   </section>
   <footer>
-    <img src="images/raphalogo.png">
-    <h2>Rapha Designs</h2>
+    <img src="images/Rapha Logo.png">
+    <!-- <h2>Rapha Designs</h2> -->
     <div class="contact-details-container">
       <div class="contact-detail">
         <img src="images/email.png">
